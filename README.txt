@@ -1,7 +1,7 @@
 Assignment 2: Tweets Clustering
 Nick Milikich
 CSE 60437 Social Sensing & Cyber-Physical Systems
-February 17, 2019
+February 17, 2020
 
 This project implements a K-means clustering algorithm that clusters a group of 251 tweets related to the Boston Marathon bombing incident into 25 clusters. The centroids of the initial clusters are stored in InitialSeeds.txt, in the form of 25 tweet IDs, the text of which are to be used as the centroids. The clustering is performed in Assignment2.py, and the results of clustering are written to the output file Assignment2_output.txt. Also implemented is a version of the K-means++ algorithm for assigning initial centroids with which to perform clustering; this is performed in Assignment2_ec.py. The centroids computed using this method are written to the output file Assignment2_ec_InitialSeeds.txt, and clusters are assigned using those initial centroids in Assignment2_ec_check.py. The resulting clusters are written to Assignment2_ec_Clusters.txt.
 
